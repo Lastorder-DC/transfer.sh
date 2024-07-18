@@ -148,12 +148,14 @@ go run main.go --provider=local --listener :8080 --temp-path=/tmp/ --basedir=/tm
 ## Build
 
 ```bash
-$ git clone git@github.com:dutchcoders/transfer.sh.git
+$ git clone git@github.com:Lastorder-DC/transfer.sh.git
 $ cd transfer.sh
 $ go build -o transfersh main.go
 ```
 
 ## Docker
+
+Docker image is not supported while doing internal changes. meanwhile, You can use unmodified, original version using below.
 
 For easy deployment, we've created an official Docker container. There are two variants, differing only by which user runs the process.
 

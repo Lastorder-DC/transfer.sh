@@ -1,4 +1,4 @@
-module github.com/dutchcoders/transfer.sh
+module github.com/Lastorder-DC/transfer.sh
 
 go 1.18
 
