@@ -238,7 +238,7 @@ func formatSize(size int64) string {
 func formatDurationDays(durationDays time.Duration) string {
 	days := int(durationDays.Hours() / 24)
 	if days == 1 {
-		return fmt.Sprintf("%d day", days)
+		return fmt.Sprintf("%d 일", days)
 	}
-	return fmt.Sprintf("%d days", days)
+	return fmt.Sprintf("%d 일", days)
 }
